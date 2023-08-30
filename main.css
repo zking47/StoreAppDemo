@@ -1,0 +1,208 @@
+/* Common elements */
+body {
+	font-size: 67.5%;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        background: url(./img/astronomia-cielo-estrellado-cielo-nocturno-998641.jpg) no-repeat fixed top center;
+        padding: 0;
+        margin: 0;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size:100% 100%;
+        background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+}
+
+h1{
+    color: #2bff92;
+    font-size: 2em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2{
+    color: #00fddb;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #a2ff37;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+ol{
+    font-size: 1.2em;
+    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
+}
+ol li{
+    margin: 0;
+    padding: 0 0 0 0.2em;
+}
+a, a:visited{
+    color: c64322;
+}
+a:hover{
+    color: #ff0000;
+}
+hr{
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+div.clear{
+    clear:both;
+    font-size: 1%;
+}
+header{
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2em;
+    background: #39150c url(img/OIP.jpg) center 0px;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 85, 85);
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-shadow: 1px 2px 0 gray; offset: x;offset: y;
+}
+header h2{
+    font-weight: 300;
+    font-size: 3.8em;
+    color: #0f0f0e;
+    margin: -0.4em 0 0 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 2px 0 gray; offset: x;offset: y;
+}
+nav{
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1em 1em 0.5em;
+    margin: 1em 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited{
+    text-decoration: none;
+    font-weight: 0;
+    color: #000000f5;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover{
+    color:#ff0000;
+    background-color: rgba(255, 0, 0, 0.137);
+    border-radius: 100px;
+}
+nav#utilityMenu{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: #7c7d86;
+    height: 1.3em;
+    border-radius: 100px;
+}
+nav#utilityMenu li{
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited{
+    color: #ff0000;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+section#sidebar{
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #000;
+    margin: 1.5em 0 3em 1.5em;
+    padding: 1.7em 0.5em 2em 1.7em;
+    border-left: #2ba967 solid 5px;
+}
+section #main{
+    background-color: #000;
+    margin: 0 0 2em;
+    padding: 1.5em 0 2em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+section div.panel{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    width: 250px;
+    margin: 0 0.5em 2em 0.5em;
+    padding: 1em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+section div.panel img.product{
+    width: 100%;
+}
+footer{
+    background-color: #747474;
+    height: 30px;
+    font-size: 1.2em;
+    color: #fbff00;
+    text-align: center;
+    padding: 1.5em 2em; 
+}
+footer ul#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before{
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited{
+    color: #020100;
+    text-decoration: underline;
+}
+button{
+    color: #c64322;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #c64322;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #fbf3db;
+    border: 1px solid #745b2f;
+}
